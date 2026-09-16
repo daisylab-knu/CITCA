@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Dataset
+data/
+dataset/
+datasets/
+
+*.nii
+*.nii.gz
+
+# Model / Results
+checkpoints/
+outputs/
+runs/
+wandb/
+
+*.pt
+*.pth
+*.ckpt
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
