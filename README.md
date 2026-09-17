@@ -1,12 +1,11 @@
-# CITCA Traning
+# CITCA: Cross-Attention Between Intrinsic Neural Timescales and Functional Connectivity for Autism Spectrum Disorder Diagnosis
 
-model 학습에 필요한 코드만 독립적으로 모은 구성입니다.
-교차검증의 validation/test 평가는 정상적인 학습 및 최종 성능 확인을 위해 유지합니다.
+**Abstract** 기존의 휴지상태 기능적 자기공명영상 기반 자폐스펙트럼장애 진단 연구는 주로 기능적 연결성에 의존하여 정적 뇌 네트워크 특징을 학습해 왔으나, 뇌 신호의 시간적 특성과 동적 신경 활동 정보를 충분히 반영하지 못하는 한계가 있다. 본 연구는 이러한 한계를 보완하기 위해 기능적 연결성과 내재적 신경 시간척도를 교차 모달 어텐션으로 통합하는 CITCA 모델을 제안한다. 실험 결과, CITCA는 단일 정보 기반 모델 및 기존 융합 방식보다 향상된 진단 성능을 달성하였으며, 정적 연결 정보와 시간적 신경 특성의 통합이 ASD 진단에 효과적임을 확인하였다.
 
 ## 포함 파일
 
 ```text
-training_only/
+CITCA/
 ├── main.py
 ├── setting.py
 ├── train.py
