@@ -35,3 +35,7 @@ python main.py \
 
 각 fold의 best validation checkpoint와 전체 metric JSON이 `output_dir`에
 저장됩니다. 실행 가능한 전체 옵션은 `python main.py --help`로 확인할 수 있습니다.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
